@@ -5,6 +5,7 @@
 }
 body {
   margin: 0;
+  font-family: Roboto;
 }
 .hero {
   background-color: #23424a;
@@ -12,12 +13,8 @@ body {
 }
 .container {
   width: 80%;
+  max-width: 1100px;
   margin: 0 auto;
-  font-family: Roboto;
-}
-.row {
-  display: flex;
-  flex-direction: row;
 }
 .container__text {
   width: 60%;
@@ -45,4 +42,36 @@ body {
 .btn:hover,
 .btn:focus {
   opacity: 0.7;
+}
+.three-col {
+  padding: 3em 0;
+  text-align: center;
+}
+.three-col .row {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 50px 0;
+}
+.col {
+  width: 100%;
+}
+.three-col h2 {
+  color: #87629A;
+}
+.three-col p {
+  color: #3A3A3A;
+}
+.two-col {
+  background-color: #136C72;
+  padding: 3em 0;
+  color: white;
+  text-align: center;
+}
+.two-col .row {
+  display: flex;
+  gap: 1em;
+}
+.two-col  p{
+  color: #38CFD9
 }
